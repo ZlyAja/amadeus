@@ -11,7 +11,7 @@ def init_db():
             (user_id INTEGER PRIMARY KEY, persona TEXT, daily_count INTEGER, 
             last_reset TEXT, history TEXT)
             '''
-            )
+        )
 
 def get_user(user_id):
     today = datetime.now().strftime("%Y-%m-%d")
