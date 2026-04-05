@@ -33,11 +33,12 @@
    ```bash
    DISCORD_TOKEN=your_discord_bot_token_here
    GROQ_API_KEY=your_groq_api_key_here
-   
+
 4. **run the bot**
    ```bash
    python main.py
 
+also make sure you got amadeus.db right there
 ## how to run it in docker
 
 ```bash
