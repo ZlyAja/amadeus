@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Introducing "Amadeus"</h1>
-  <p><i>Cool discord bot inspired by steins gate anime *i made ts just for fun btw n also learning purposes*</i></p>
+  <p><i>Cool discord bot inspired by steins gate anime (i made ts just for fun btw n also learning purposes)</i></p>
   
   ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
   ![Discord.py](https://img.shields.io/badge/Discord.py-2.4.0-5865F2.svg)
