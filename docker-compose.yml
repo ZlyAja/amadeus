@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  amadeus:
+    build: .
+    container_name: amadeus_bot
+    restart: always
+    volumes:
+      - ./amadeus.db:/app/amadeus.db # to prevent data loss when rebuilding
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - GROQ_API_KEY=${GROQ_API_KEY}

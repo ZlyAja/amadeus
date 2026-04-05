@@ -1,0 +1,4 @@
+.env
+amadeus.db
+__pycache__/
+*.pyc
